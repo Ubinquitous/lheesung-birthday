@@ -16,6 +16,7 @@ const App = () => {
 	}, [])
 
 	const handleClick = () => {
+		if(!comment.trim()) return alert("커멘트를 입력해라 ㅋㅋ ");
 		Swal.fire({
 			title: '이희성에게 생일축하메세지를 보내시겠습니까?',
 			showDenyButton: true,
