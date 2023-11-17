@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "es6",
+    "strict": true,
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "includes": [
+    "src"
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "Node",
+      "target": "es5",
+      "esModuleInterop": true
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
